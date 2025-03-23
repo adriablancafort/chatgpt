@@ -16,11 +16,9 @@ export async function clientLoader() {
 
 export function HydrateFallback() {
   return (
-    <Layout>
-      <div className="fixed inset-0 flex items-center justify-center">
-        <div className="w-10 h-10 border-2 border-muted-foreground/50 border-t-transparent rounded-full animate-spin" aria-label="Loading"></div>
-      </div>
-    </Layout>
+    <div className="fixed inset-0 flex items-center justify-center">
+      <div className="w-10 h-10 border-2 border-muted-foreground/50 border-t-transparent rounded-full animate-spin"></div>
+    </div>
   );
 }
 
